@@ -133,7 +133,7 @@
 // }else{
 //     console.log('Kichik son');
 // }
-
+ 
 // 15-masala
 // let free = prompt('Yoshingizni kiriting')
 // if(free >= 18){
@@ -141,3 +141,21 @@
 // }else{
 //     console.log('Tekin kirish');
 // }
+
+
+
+// ////// ALISHER MASALASI
+
+let sayohat = +prompt('ALisher sizda qancha pul bor (somda kiriritng)')
+let dollor = 11000.34;
+let euro = 12354.03 ;
+
+let chipta = 500 * dollor;
+let mehmonXona = 250 * euro;
+let muzey = 120 * euro
+let res = chipta + mehmonXona + muzey;
+if(sayohat >= res){
+    console.log("Oq yo'l, Alisher!");
+}else{
+    console.log("Alisher, ozgina sabr qilish kerak bo'lar ekan.");
+}
